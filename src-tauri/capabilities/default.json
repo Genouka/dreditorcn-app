@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:default"
+  ],
+  "commands.allow": [
+    "read_file",
+    "read",
+    "open",
+    "read_text_file",
+    "read_text_file_lines",
+    "read_text_file_lines_next"  
+  ]
+}
